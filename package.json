@@ -1,0 +1,19 @@
+{
+  "name": "listaalumnos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSebaLee/ListarAlumnos.git"
+  },
+  "author": "Kevin Lee, Juan Rozembeim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSebaLee/ListarAlumnos/issues"
+  },
+  "homepage": "https://github.com/KevinSebaLee/ListarAlumnos#readme",
+  "description": ""
+}
