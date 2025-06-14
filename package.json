@@ -3,17 +3,28 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KevinSebaLee/ListarAlumnos.git"
   },
+  "type": "module",
   "author": "Kevin Lee, Juan Rozembeim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KevinSebaLee/ListarAlumnos/issues"
   },
   "homepage": "https://github.com/KevinSebaLee/ListarAlumnos#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "http-status-codes": "^2.3.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0"
+  }
 }
